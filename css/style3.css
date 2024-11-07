@@ -142,3 +142,19 @@
     vertical-align: middle;
 }
 
+
+.editar-descrip{
+    width: 35px;
+    height: 35px; 
+   margin-left: 10px;
+   margin-bottom: 5px;
+   cursor: pointer;
+   font-size: 18px;
+   color: #1a113d;
+   border: transparent;
+   border-radius: 50%;
+  }
+
+  .editar-descrip:hover{
+    background: #dcbef5;
+  }
