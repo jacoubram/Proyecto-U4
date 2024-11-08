@@ -146,6 +146,7 @@
 .editar-descrip{
     width: 35px;
     height: 35px; 
+    text-align: center;
    margin-left: 10px;
    margin-bottom: 5px;
    cursor: pointer;
@@ -157,4 +158,55 @@
 
   .editar-descrip:hover{
     background: #dcbef5;
+  }
+
+  .pag-principal .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    margin: 0 620px;
+    margin-top: 30px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .pag-principal .button:hover {
+    width: 160px;
+  }
+  .pag-principal .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .pag-principal .button:nth-child(1):hover .icon {
+    background: #200b42;
+  }
+
+  .pag-principal .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .pag-principal .button:hover .icon i {
+    color: #fff;
+  }
+  .pag-principal .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .pag-principal .button:nth-child(1) span {
+    color: #17033b;
   }
